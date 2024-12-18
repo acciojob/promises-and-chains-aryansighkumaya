@@ -6,7 +6,21 @@
   </head>
 
   <body>
-    <!-- write the body here -->
+<form method="POST" action="/submit-form">
+        <!-- Label for better accessibility -->
+        <label for="age">Age:</label>
+        <input id="age" name="age" type="number" min="0" max="120" required placeholder="Enter your age">
+
+        <br>
+
+        <label for="name">Name:</label>
+        <input id="name" name="name" type="text" required placeholder="Enter your name">
+
+        <br>
+
+        <!-- Add button text for clarity -->
+        <button type="submit" id="btn">Submit</button>
+  </form>
 
     <script type="text/javascript" src="./script.js"></script>
   </body>
